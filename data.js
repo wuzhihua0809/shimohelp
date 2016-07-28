@@ -1,0 +1,10 @@
+var list = {
+    data:[{url: "#", text: "11"}, {url: "#",text: "21"}, {url: "#",text: "diyihanh"}, {url: "#",text: "4"}, {url: "#",text: "45"}, {url: "#",text: "62"}, {url: "#",text: "76"}, {url: "#",text: "82"}, {url: "#",text: "93"}, {url: "#",text: "shimo"}],
+    data1:[{url: "#", text: "11"}, {url: "#",text: "21"}, {url: "#",text: "diyihanh"}, {url: "#",text: "4"}, {url: "#",text: "45"}, {url: "#",text: "62"}, {url: "#",text: "76"}, {url: "#",text: "82"}, {url: "#",text: "93"}, {url: "#",text: "shimo"}],
+    data2:[{url: "#", text: "12"}, {url: "#",text: "22"}, {url: "#",text: "dier"}, {url: "#",text: "4"}, {url: "#",text: "45"}, {url: "#",text: "62"}, {url: "#",text: "76"}, {url: "#",text: "82"}, {url: "#",text: "93"}, {url: "#",text: "shimo"}],
+    data3:[{url: "#", text: "13"}, {url: "#",text: "23"}, {url: "#",text: "13disan"}, {url: "#",text: "4"}, {url: "#",text: "45"}, {url: "#",text: "62"}, {url: "#",text: "76"}, {url: "#",text: "82"}, {url: "#",text: "93"}, {url: "#",text: "shimo"}],
+    data4:[{url: "#", text: "14"}, {url: "#",text: "24"}, {url: "#",text: "13disi"}, {url: "#",text: "4"}, {url: "#",text: "45"}, {url: "#",text: "62"}, {url: "#",text: "76"}, {url: "#",text: "82"}, {url: "#",text: "93"}, {url: "#",text: "shimo"}],
+    data5:[{url: "#", text: "15"}, {url: "#",text: "25"}, {url: "#",text: "1diwu3"}, {url: "#",text: "4"}, {url: "#",text: "45"}, {url: "#",text: "62"}, {url: "#",text: "76"}, {url: "#",text: "82"}, {url: "#",text: "93"}, {url: "#",text: "shimo"}],
+    data6:[{url: "#", text: "16"}, {url: "#",text: "26"}, {url: "#",text: "1diliu3"}, {url: "#",text: "4"}, {url: "#",text: "45"}, {url: "#",text: "62"}, {url: "#",text: "76"}, {url: "#",text: "82"}, {url: "#",text: "93"}, {url: "#",text: "shimo"}],
+    data7:[{url: "#", text: "17"}, {url: "#",text: "27"}, {url: "#",text: "1diqi3"}, {url: "#",text: "4"}, {url: "#",text: "45"}, {url: "#",text: "62"}, {url: "#",text: "76"}, {url: "#",text: "82"}, {url: "#",text: "93"}, {url: "#",text: "shimo"}]
+};

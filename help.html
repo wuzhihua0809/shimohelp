@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link rel='stylesheet' type='text/css' href='style.css'/>
+		<script type='text/javascript' src='jquery.js'></script>
+		<script type='text/javascript' src='data.js'></script>
+		<script type='text/javascript' src='script.js'></script>
+		<script type="text/template" id="search-tpl">
+			<li class="search-cell">
+				<a class="content-link" href="$url$">$text$</a>
+			</li>
+		</script>
+		<script type="text/template" id="list-tpl">
+			<li class="right-main-text">
+				<div class="right-main-icon"></div>
+				<a class="right-main-link" href="$url$">$text$</a>
+			</li>
+		</script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="logo"></div>
+			<ul class="header-right">
+				<li class="header-right-item">
+					<a href="#" class="header-right-link">企业版</a>
+				</li>
+				<li class="header-right-item">
+					<a href="#" class="header-right-link">个人版</a>
+				</li>
+				<li class="header-right-item">
+					<a href="#" class="header-right-link">定价</a>
+				</li>
+				<li class="header-right-item">
+					<a href="#" class="header-right-link">钉钉</a>
+				</li>
+				<li class="header-right-item">
+					<a href="#" class="header-right-link">下载App</a>
+				</li>
+				<li class="header-right-item">
+					<a href="#" class="header-right-link help">帮助</a>
+				</li>
+				<li class="header-right-item">
+					<a href="#" class="header-right-link">登录</a>
+				</li>
+				<li class="header-right-item">
+					<a href="#" class="header-right-link register">免费注册</a>
+				</li>
+			</ul>
+			<div class="title"></div>
+			<div class="search-bar">
+				<div class="search-img"></div>
+				<input class="search-text" type="text" placeholder="输入您的疑问,比如:如何在文档里添加协作者"/>
+				<a class="search-submit">搜 索</a>
+				<a class="cancel-icon"></a>
+			</div>
+		</div>
+		<div class="search-box">
+			<ul class="search-content">
+			</ul>
+			<div class="load-icon">菊花</div>
+		</div>
+		<div class="main">
+			<ul class="left-main-content">
+				<li class="left-main-text firstquestion" title="data1">
+					<div class="left-main-icon firsticon"></div>常见问题
+					<div class="arrow"></div>
+				</li>
+				<li class="left-main-text secondquestion" title="data2">
+					<div class="left-main-icon secondicon"></div>文档编辑类
+					<div class="arrow"></div>
+				</li>
+				<li class="left-main-text thirdquestion" title="data3">
+					<div class="left-main-icon thirdicon" id="data3"></div>文件夹和分享类
+					<div class="arrow"></div>
+				</li>
+				<li class="left-main-text fourthquestion" title="data4">
+					<div class="left-main-icon fourthicon"></div>表格常见问题
+					<div class="arrow"></div>
+				</li>
+				<li class="left-main-text fifthquestion" title="data5">
+					<div class="left-main-icon fifthicon"></div>企业版常见问题
+					<div class="arrow"></div>
+				</li>
+				<li class="left-main-text sixthquestion" title="data6">
+					<div class="left-main-icon sixthicon"></div>账号管理类
+					<div class="arrow"></div>
+				</li>
+				<li class="left-main-text seventhquestion" title="data7">
+					<div class="left-main-icon seventhicon"></div>安全与隐私类
+					<div class="arrow"></div>
+				</li>
+			</ul>
+			<ul class="right-main-content">
+			</ul>
+		</div>
+		<div class="contact">
+			<div class="contact-us"></div>
+			<div class="contact-way">
+				<div class="phone">
+					<div class="phone-icon"></div>
+					<div class="phone-num">027-87636828</div>
+					<div class="phone-time">(周一至周五 9:30-18:00)</div>
+				</div>
+				<div class="email">
+					<div class="email-icon"></div>
+					<div class="email-address">contact@shimo.im</div>
+				</div>
+				<div class="qq">
+					<div class="qq-icon"></div>
+					<div class="qq-num">QQ用户群 373843912</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer-nav">以工匠至诚之心, 细细雕琢</div>
+			<div class="regist-email">
+				<input class="email-text" type="text" placeholder="输入邮箱"/>
+				<div class="regist-submit">免费注册</div>
+			</div>
+			<div class="footer-bar">
+				<span class="about-us">关于我们</span>
+				<span class="about-us">加入我们</span>
+				<span class="about-us">微信公众号</span>
+				<span class="about-us">微博</span>
+				<span class="about-us">鄂ICP备140136665-2</span>
+			</div>
+		</div>
+	</body>
+</html>
